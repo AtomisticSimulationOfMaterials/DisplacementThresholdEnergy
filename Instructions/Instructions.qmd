@@ -7,13 +7,13 @@ format: html
 ---
 
 ## Introduction
-To support the Modelling Primer session we have provided a set of simple modelling exercises that introduce some key concepts common to much materials modelling practice. We will illustrate these concepts using classical molecular dynamics simulations. All of these simulations will be run via Google's Colab platform
+To give you a bit of experience with materials simulation we have provided a simple modelling exercise that allows you to calculate the displacement threshold energy in a model material using classical molecular dynamics simulations. These simulations will be run via Google's Colab platform
 
-If you haven't already got a google account, please sign up for one now.
+You can use your university Google account for this.
 
-## Setting up Google colab
+## Setting up Google Colab
 
-The first step is to navigate to the [github repository for the session](https://github.com/AtomisticSimulationOfMaterials/MaterialsModellingPrimer)
+The first step is to navigate to the [github repository for the session](https://github.com/AtomisticSimulationOfMaterials/DisplacementThresholdEnergy)
 
 You should see something like in @fig-repo. 
 
@@ -47,20 +47,10 @@ Run the next three code cells (see @fig-colab5). These cells:
 
 * Install the lammps molecular dynamics software (and a module that will help us read the output)
 * Load the python modules that we will need for the exercises
-* Define a function we will us a lot in the exercises.
+* Change to the correct directory to run the exercises
 
 ![](images/colab5.png){#fig-colab5 width=5in}
 
 ## The exercises
 
-All that ermains now is to work through the exercises in the rest of the notebook. I'll let you know the right point in the lecture to run each exercise.
-
-Note that the exercises will be run in the folders:
-
-* `02-BulkModulus/`
-* `03-VacancyFormation/`
-* `04-GrainBoundary/`
-* `04-GrainBoundary/`
-* `05-UnrelaxedInterstitial/`
-
-You can ignore the notebooks in these folders (they reproduce the contents of the current notebook, `XX-CombinedExercises.ipynb`, but for one exercise at a time).
+All that remains now is to work through the cells in the rest of the notebook. 
