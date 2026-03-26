@@ -1,5 +1,5 @@
 ---
-title: "Instructions for modelling primer"
+title: "Instructions for displacement threshold energy exercise"
 execute:
   echo: false
 jupyter: python3
@@ -23,7 +23,8 @@ Make sure you are viewing `ReadMe.md` and right-click the badge circled in the f
 
 ![](images/colab_open.png){#fig-colab_open width=6in}
 
-Select `XX-CombinedExercises.ipynb`. You'll be asked a couple of questions. Confirm you want to proceed you'll then see the notebook in Colab as in @fig-colab1
+
+Select `01-DisplacementThreshold/01-DisplacementThreshold.ipynb`. You'll be asked a couple of questions. Confirm you want to proceed you'll then see the notebook in Colab as in @fig-colab1
 
 ![](images/colab1.png){#fig-colab1 width=5.5in}
 
